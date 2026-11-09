@@ -1,0 +1,37 @@
+[
+ {
+  "symbol": "HDFCBANK",
+  "company": "HDFC Bank Limited",
+  "purpose": "Financial Results",
+  "bm_desc": "To consider and approve the financial results for the period ended December 31, 2025",
+  "date": "17-Jan-2026"
+ },
+ {
+  "symbol": "HDFCBANK",
+  "company": "HDFC Bank Limited",
+  "purpose": "Fund Raising",
+  "bm_desc": "To consider Fund Raising",
+  "date": "18-Apr-2026"
+ },
+ {
+  "symbol": "HDFCBANK",
+  "company": "HDFC Bank Limited",
+  "purpose": "Financial Results/Dividend",
+  "bm_desc": "To consider and approve the financial results for the period ended March 31, 2026 and dividend",
+  "date": "18-Apr-2026"
+ },
+ {
+  "symbol": "HDFCBANK",
+  "company": "HDFC Bank Limited",
+  "purpose": "Financial Results",
+  "bm_desc": "To consider and approve the unaudited standalone and consolidated financial results of the Bank for the quarter ended June 30, 2026",
+  "date": "18-Jul-2026"
+ },
+ {
+  "symbol": "HDFCBANK",
+  "company": "HDFC Bank Limited",
+  "purpose": "Financial Results",
+  "bm_desc": "To consider and approve the unaudited standalone and consolidated financial results of the Bank for the quarter/half-year ending September 30, 2026",
+  "date": "17-Oct-2026"
+ }
+]

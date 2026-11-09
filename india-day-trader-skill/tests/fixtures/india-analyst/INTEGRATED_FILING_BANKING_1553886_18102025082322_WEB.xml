@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:in-capmkt="http://www.sebi.gov.in/xbrl/2025-01-31/in-capmkt" xmlns:in-capmkt-ent="http://www.sebi.gov.in/xbrl/IntegratedFinance_Banking/2025-01-31/in-capmkt/in-capmkt-ent" xmlns:in-capmkt-roles="http://www.sebi.gov.in/xbrl/IntegratedFinance_Banking/2025-01-31/in-capmkt-roles" xmlns:in-capmkt-types="http://www.sebi.gov.in/xbrl/2025-01-31/in-capmkt-types" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:net="http://www.xbrl.org/2009/role/net" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink">
+<xbrli:context id="OneD"><xbrli:entity><xbrli:identifier scheme="http://www.sebi.gov.in/in-capmkt/ScripCode">500180</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2025-07-01</xbrli:startDate><xbrli:endDate>2025-09-30</xbrli:endDate></xbrli:period></xbrli:context>
+<xbrli:context id="OneI"><xbrli:entity><xbrli:identifier scheme="http://www.sebi.gov.in/in-capmkt/ScripCode">500180</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2025-09-30</xbrli:instant></xbrli:period></xbrli:context>
+<xbrli:context id="PY_I"><xbrli:entity><xbrli:identifier scheme="http://www.sebi.gov.in/in-capmkt/ScripCode">500180</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2025-03-31</xbrli:instant></xbrli:period></xbrli:context>
+<xbrli:context id="FourD"><xbrli:entity><xbrli:identifier scheme="http://www.sebi.gov.in/in-capmkt/ScripCode">500180</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2025-04-01</xbrli:startDate><xbrli:endDate>2025-09-30</xbrli:endDate></xbrli:period></xbrli:context>
+<xbrli:unit id="INR"><xbrli:measure>iso4217:INR</xbrli:measure></xbrli:unit>
+<xbrli:unit id="pure"><xbrli:measure>xbrli:pure</xbrli:measure></xbrli:unit>
+<xbrli:unit id="INRPerShare"><xbrli:divide><xbrli:unitNumerator><xbrli:measure>iso4217:INR</xbrli:measure></xbrli:unitNumerator><xbrli:unitDenominator><xbrli:measure>xbrli:shares</xbrli:measure></xbrli:unitDenominator></xbrli:divide></xbrli:unit>
+<in-capmkt:ScripCode contextRef="OneD">500180</in-capmkt:ScripCode>
+<in-capmkt:Symbol contextRef="OneD">HDFCBANK</in-capmkt:Symbol>
+<in-capmkt:MSEISymbol contextRef="OneD">NOTLISTED</in-capmkt:MSEISymbol>
+<in-capmkt:ISIN contextRef="OneD">INE040A01034</in-capmkt:ISIN>
+<in-capmkt:NameOfBank contextRef="OneD">HDFC Bank Limited</in-capmkt:NameOfBank>
+<in-capmkt:ClassOfSecurity contextRef="OneD">Equity</in-capmkt:ClassOfSecurity>
+<in-capmkt:DateOfStartOfFinancialYear contextRef="OneD">2025-04-01</in-capmkt:DateOfStartOfFinancialYear>
+<in-capmkt:DateOfEndOfFinancialYear contextRef="OneD">2026-03-31</in-capmkt:DateOfEndOfFinancialYear>
+<in-capmkt:DateOfBoardMeetingWhenFinancialResultsWereApproved contextRef="OneD">2025-10-18</in-capmkt:DateOfBoardMeetingWhenFinancialResultsWereApproved>
+<in-capmkt:DateOnWhichPriorIntimationOfTheMeetingForConsideringFinancialResultsWasInformedToTheExchange contextRef="OneD">2025-09-23</in-capmkt:DateOnWhichPriorIntimationOfTheMeetingForConsideringFinancialResultsWasInformedToTheExchange>
+<in-capmkt:DescriptionOfPresentationCurrency contextRef="OneD">INR</in-capmkt:DescriptionOfPresentationCurrency>
+<in-capmkt:LevelOfRounding contextRef="OneD">Crores</in-capmkt:LevelOfRounding>
+<in-capmkt:TypeOfReportingPeriod contextRef="OneD">Quarterly</in-capmkt:TypeOfReportingPeriod>
+<in-capmkt:ReportingQuarter contextRef="OneD">Second quarter</in-capmkt:ReportingQuarter>
+<in-capmkt:DateOfStartOfBoardMeeting contextRef="OneD">2025-10-18</in-capmkt:DateOfStartOfBoardMeeting>
+<in-capmkt:StartTimeOfBoardMeeting contextRef="OneD">11:00:00</in-capmkt:StartTimeOfBoardMeeting>
+<in-capmkt:DateOfEndOfBoardMeeting contextRef="OneD">2025-10-18</in-capmkt:DateOfEndOfBoardMeeting>
+<in-capmkt:EndTimeOfBoardMeeting contextRef="OneD">13:50:00</in-capmkt:EndTimeOfBoardMeeting>
+<in-capmkt:DeclarationOfUnmodifiedOpinionOrStatementOnImpactOfAuditQualification contextRef="OneD">Declaration of unmodified opinion</in-capmkt:DeclarationOfUnmodifiedOpinionOrStatementOnImpactOfAuditQualification>
+<in-capmkt:DateOfStartOfReportingPeriod contextRef="OneD">2025-07-01</in-capmkt:DateOfStartOfReportingPeriod>
+<in-capmkt:DateOfEndOfReportingPeriod contextRef="OneD">2025-09-30</in-capmkt:DateOfEndOfReportingPeriod>
+<in-capmkt:WhetherResultsAreAuditedOrUnaudited contextRef="OneD">Unaudited</in-capmkt:WhetherResultsAreAuditedOrUnaudited>
+<in-capmkt:NatureOfReportStandaloneConsolidated contextRef="OneD">Consolidated</in-capmkt:NatureOfReportStandaloneConsolidated>
+<in-capmkt:InterestOrDiscountOnAdvancesOrBills contextRef="OneD" decimals="-5" unitRef="INR">633096700000</in-capmkt:InterestOrDiscountOnAdvancesOrBills>
+<in-capmkt:RevenueOnInvestments contextRef="OneD" decimals="-5" unitRef="INR">213283700000</in-capmkt:RevenueOnInvestments>
+<in-capmkt:InterestOnBalancesWithReserveBankOfIndiaAndOtherInterBankFunds contextRef="OneD" decimals="-5" unitRef="INR">7388600000</in-capmkt:InterestOnBalancesWithReserveBankOfIndiaAndOtherInterBankFunds>
+<in-capmkt:OtherInterest contextRef="OneD" decimals="-5" unitRef="INR">16169400000</in-capmkt:OtherInterest>
+<in-capmkt:InterestEarned contextRef="OneD" decimals="-5" unitRef="INR">869938400000</in-capmkt:InterestEarned>
+<in-capmkt:OtherIncome contextRef="OneD" decimals="-5" unitRef="INR">315667900000</in-capmkt:OtherIncome>
+<in-capmkt:Income contextRef="OneD" decimals="-5" unitRef="INR">1185606300000</in-capmkt:Income>
+<in-capmkt:InterestExpended contextRef="OneD" decimals="-5" unitRef="INR">467408600000</in-capmkt:InterestExpended>
+<in-capmkt:EmployeesCost contextRef="OneD" decimals="-5" unitRef="INR">93175600000</in-capmkt:EmployeesCost>
+<in-capmkt:OtherOperatingExpenses contextRef="OneD" decimals="-5" unitRef="INR">315614900000</in-capmkt:OtherOperatingExpenses>
+<in-capmkt:OperatingExpenses contextRef="OneD" decimals="-5" unitRef="INR">408790500000</in-capmkt:OperatingExpenses>
+<in-capmkt:ExpenditureExcludingProvisionsAndContingencies contextRef="OneD" decimals="-5" unitRef="INR">876199100000</in-capmkt:ExpenditureExcludingProvisionsAndContingencies>
+<in-capmkt:OperatingProfitBeforeProvisionAndContingencies contextRef="OneD" decimals="-5" unitRef="INR">309407200000</in-capmkt:OperatingProfitBeforeProvisionAndContingencies>
+<in-capmkt:ProvisionsOtherThanTaxAndContingencies contextRef="OneD" decimals="-5" unitRef="INR">42818300000</in-capmkt:ProvisionsOtherThanTaxAndContingencies>
+<in-capmkt:ExceptionalItems contextRef="OneD" decimals="-6" unitRef="INR">-7531000000</in-capmkt:ExceptionalItems>
+<in-capmkt:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="OneD" decimals="-5" unitRef="INR">259057900000</in-capmkt:ProfitLossFromOrdinaryActivitiesBeforeTax>
+<in-capmkt:TaxExpense contextRef="OneD" decimals="-5" unitRef="INR">62951200000</in-capmkt:TaxExpense>
+<in-capmkt:ProfitLossFromOrdinaryActivitiesAfterTax contextRef="OneD" decimals="-5" unitRef="INR">196106700000</in-capmkt:ProfitLossFromOrdinaryActivitiesAfterTax>
+<in-capmkt:ExtraordinaryItems contextRef="OneD" decimals="-7" unitRef="INR">0</in-capmkt:ExtraordinaryItems>
+<in-capmkt:ProfitLossForThePeriod contextRef="OneD" decimals="-5" unitRef="INR">196106700000</in-capmkt:ProfitLossForThePeriod>
+<in-capmkt:ShareOfProfitLossOfAssociates contextRef="OneD" decimals="-7" unitRef="INR">0</in-capmkt:ShareOfProfitLossOfAssociates>
+<in-capmkt:ProfitLossOfMinorityInterest contextRef="OneD" decimals="-7" unitRef="INR">0</in-capmkt:ProfitLossOfMinorityInterest>
+<in-capmkt:ProfitLossAfterTaxesMinorityInterestAndShareOfProfitLossOfAssociates contextRef="OneD" decimals="-5" unitRef="INR">196106700000</in-capmkt:ProfitLossAfterTaxesMinorityInterestAndShareOfProfitLossOfAssociates>
+<in-capmkt:PaidUpValueOfEquityShareCapital contextRef="OneD" decimals="-5" unitRef="INR">15363700000</in-capmkt:PaidUpValueOfEquityShareCapital>
+<in-capmkt:FaceValueOfEquityShareCapital contextRef="OneD" decimals="INF" unitRef="INRPerShare">1</in-capmkt:FaceValueOfEquityShareCapital>
+<in-capmkt:PercentageOfShareHeldByGovernmentOfIndia contextRef="OneD" decimals="INF" unitRef="pure">0</in-capmkt:PercentageOfShareHeldByGovernmentOfIndia>
+<in-capmkt:BasicEarningsPerShareBeforeExtraordinaryItems contextRef="OneD" decimals="INF" unitRef="INRPerShare">12.78</in-capmkt:BasicEarningsPerShareBeforeExtraordinaryItems>
+<in-capmkt:DilutedEarningsPerShareBeforeExtraordinaryItems contextRef="OneD" decimals="INF" unitRef="INRPerShare">12.71</in-capmkt:DilutedEarningsPerShareBeforeExtraordinaryItems>
+<in-capmkt:BasicEarningsPerShareAfterExtraordinaryItems contextRef="OneD" decimals="INF" unitRef="INRPerShare">12.78</in-capmkt:BasicEarningsPerShareAfterExtraordinaryItems>
+<in-capmkt:DilutedEarningsPerShareAfterExtraordinaryItems contextRef="OneD" decimals="INF" unitRef="INRPerShare">12.71</in-capmkt:DilutedEarningsPerShareAfterExtraordinaryItems>
+<in-capmkt:GrossNonPerformingAssets contextRef="OneD" decimals="-7" unitRef="INR">0</in-capmkt:GrossNonPerformingAssets>
+<in-capmkt:NonPerformingAssets contextRef="OneD" decimals="-7" unitRef="INR">0</in-capmkt:NonPerformingAssets>
+<in-capmkt:PercentageOfGrossNpa contextRef="OneD" decimals="INF" unitRef="pure">0</in-capmkt:PercentageOfGrossNpa>
+<in-capmkt:PercentageOfNpa contextRef="OneD" decimals="INF" unitRef="pure">0</in-capmkt:PercentageOfNpa>
+<in-capmkt:ReturnOnAssets contextRef="OneD" decimals="INF" unitRef="pure">0</in-capmkt:ReturnOnAssets>
+<in-capmkt:DateOfStartOfReportingPeriod contextRef="FourD">2025-04-01</in-capmkt:DateOfStartOfReportingPeriod>
+<in-capmkt:DateOfEndOfReportingPeriod contextRef="FourD">2025-09-30</in-capmkt:DateOfEndOfReportingPeriod>
+<in-capmkt:WhetherResultsAreAuditedOrUnaudited contextRef="FourD">Unaudited</in-capmkt:WhetherResultsAreAuditedOrUnaudited>
+<in-capmkt:NatureOfReportStandaloneConsolidated contextRef="FourD">Consolidated</in-capmkt:NatureOfReportStandaloneConsolidated>
+<in-capmkt:InterestOrDiscountOnAdvancesOrBills contextRef="FourD" decimals="-5" unitRef="INR">1274575800000</in-capmkt:InterestOrDiscountOnAdvancesOrBills>
+<in-capmkt:RevenueOnInvestments contextRef="FourD" decimals="-5" unitRef="INR">421455400000</in-capmkt:RevenueOnInvestments>
+<in-capmkt:InterestOnBalancesWithReserveBankOfIndiaAndOtherInterBankFunds contextRef="FourD" decimals="-6" unitRef="INR">15653000000</in-capmkt:InterestOnBalancesWithReserveBankOfIndiaAndOtherInterBankFunds>
+<in-capmkt:OtherInterest contextRef="FourD" decimals="-5" unitRef="INR">31972900000</in-capmkt:OtherInterest>
+<in-capmkt:InterestEarned contextRef="FourD" decimals="-5" unitRef="INR">1743657100000</in-capmkt:InterestEarned>
+<in-capmkt:OtherIncome contextRef="FourD" decimals="-5" unitRef="INR">772498900000</in-capmkt:OtherIncome>
+<in-capmkt:Income contextRef="FourD" decimals="-6" unitRef="INR">2516156000000</in-capmkt:Income>
+<in-capmkt:InterestExpended contextRef="FourD" decimals="-5" unitRef="INR">944493700000</in-capmkt:InterestExpended>
+<in-capmkt:EmployeesCost contextRef="FourD" decimals="-5" unitRef="INR">182150200000</in-capmkt:EmployeesCost>
+<in-capmkt:OtherOperatingExpenses contextRef="FourD" decimals="-5" unitRef="INR">718470300000</in-capmkt:OtherOperatingExpenses>
+<in-capmkt:OperatingExpenses contextRef="FourD" decimals="-5" unitRef="INR">900620500000</in-capmkt:OperatingExpenses>
+<in-capmkt:ExpenditureExcludingProvisionsAndContingencies contextRef="FourD" decimals="-5" unitRef="INR">1845114200000</in-capmkt:ExpenditureExcludingProvisionsAndContingencies>
+<in-capmkt:OperatingProfitBeforeProvisionAndContingencies contextRef="FourD" decimals="-5" unitRef="INR">671041800000</in-capmkt:OperatingProfitBeforeProvisionAndContingencies>
+<in-capmkt:ProvisionsOtherThanTaxAndContingencies contextRef="FourD" decimals="-5" unitRef="INR">195954600000</in-capmkt:ProvisionsOtherThanTaxAndContingencies>
+<in-capmkt:ExceptionalItems contextRef="FourD" decimals="-5" unitRef="INR">-15856200000</in-capmkt:ExceptionalItems>
+<in-capmkt:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="FourD" decimals="-6" unitRef="INR">459231000000</in-capmkt:ProfitLossFromOrdinaryActivitiesBeforeTax>
+<in-capmkt:TaxExpense contextRef="FourD" decimals="-5" unitRef="INR">100545200000</in-capmkt:TaxExpense>
+<in-capmkt:ProfitLossFromOrdinaryActivitiesAfterTax contextRef="FourD" decimals="-5" unitRef="INR">358685800000</in-capmkt:ProfitLossFromOrdinaryActivitiesAfterTax>
+<in-capmkt:ExtraordinaryItems contextRef="FourD" decimals="-7" unitRef="INR">0</in-capmkt:ExtraordinaryItems>
+<in-capmkt:ProfitLossForThePeriod contextRef="FourD" decimals="-5" unitRef="INR">358685800000</in-capmkt:ProfitLossForThePeriod>
+<in-capmkt:ShareOfProfitLossOfAssociates contextRef="FourD" decimals="-7" unitRef="INR">0</in-capmkt:ShareOfProfitLossOfAssociates>
+<in-capmkt:ProfitLossOfMinorityInterest contextRef="FourD" decimals="-7" unitRef="INR">0</in-capmkt:ProfitLossOfMinorityInterest>
+<in-capmkt:ProfitLossAfterTaxesMinorityInterestAndShareOfProfitLossOfAssociates contextRef="FourD" decimals="-5" unitRef="INR">358685800000</in-capmkt:ProfitLossAfterTaxesMinorityInterestAndShareOfProfitLossOfAssociates>
+<in-capmkt:PaidUpValueOfEquityShareCapital contextRef="FourD" decimals="-5" unitRef="INR">15363700000</in-capmkt:PaidUpValueOfEquityShareCapital>
+<in-capmkt:FaceValueOfEquityShareCapital contextRef="FourD" decimals="INF" unitRef="INRPerShare">1</in-capmkt:FaceValueOfEquityShareCapital>
+<in-capmkt:PercentageOfShareHeldByGovernmentOfIndia contextRef="FourD" decimals="INF" unitRef="pure">0</in-capmkt:PercentageOfShareHeldByGovernmentOfIndia>
+<in-capmkt:BasicEarningsPerShareBeforeExtraordinaryItems contextRef="FourD" decimals="INF" unitRef="INRPerShare">23.39</in-capmkt:BasicEarningsPerShareBeforeExtraordinaryItems>
+<in-capmkt:DilutedEarningsPerShareBeforeExtraordinaryItems contextRef="FourD" decimals="INF" unitRef="INRPerShare">23.27</in-capmkt:DilutedEarningsPerShareBeforeExtraordinaryItems>
+<in-capmkt:BasicEarningsPerShareAfterExtraordinaryItems contextRef="FourD" decimals="INF" unitRef="INRPerShare">23.39</in-capmkt:BasicEarningsPerShareAfterExtraordinaryItems>
+<in-capmkt:DilutedEarningsPerShareAfterExtraordinaryItems contextRef="FourD" decimals="INF" unitRef="INRPerShare">23.27</in-capmkt:DilutedEarningsPerShareAfterExtraordinaryItems>
+<in-capmkt:GrossNonPerformingAssets contextRef="FourD" decimals="-7" unitRef="INR">0</in-capmkt:GrossNonPerformingAssets>
+<in-capmkt:NonPerformingAssets contextRef="FourD" decimals="-7" unitRef="INR">0</in-capmkt:NonPerformingAssets>
+<in-capmkt:PercentageOfGrossNpa contextRef="FourD" decimals="INF" unitRef="pure">0</in-capmkt:PercentageOfGrossNpa>
+<in-capmkt:PercentageOfNpa contextRef="FourD" decimals="INF" unitRef="pure">0</in-capmkt:PercentageOfNpa>
+<in-capmkt:ReturnOnAssets contextRef="FourD" decimals="INF" unitRef="pure">0</in-capmkt:ReturnOnAssets>
+<in-capmkt:OtherUnallocableExpenditureNetOffUnAllocableIncome contextRef="OneD" decimals="-7" unitRef="INR">0</in-capmkt:OtherUnallocableExpenditureNetOffUnAllocableIncome>
+<in-capmkt:OtherUnallocableExpenditureNetOffUnAllocableIncome contextRef="FourD" decimals="-7" unitRef="INR">0</in-capmkt:OtherUnallocableExpenditureNetOffUnAllocableIncome>
+<in-capmkt:ProfitBeforeExtraordinaryItemsAndTax contextRef="FourD" decimals="-6" unitRef="INR">459231000000</in-capmkt:ProfitBeforeExtraordinaryItemsAndTax>
+<in-capmkt:ShareOfProfitAndLossFromPartnershipFirmOrAssociationOfPersonsOrLimitedLiabilityPartnerships contextRef="FourD" decimals="-7" unitRef="INR">0</in-capmkt:ShareOfProfitAndLossFromPartnershipFirmOrAssociationOfPersonsOrLimitedLiabilityPartnerships>
+<in-capmkt:CashReceiptsFromShareOfProfitsOfPartnershipFirmOrAssociationOfPersonsOrLimitedLiabilityPartnerships contextRef="FourD" decimals="-7" unitRef="INR">0</in-capmkt:CashReceiptsFromShareOfProfitsOfPartnershipFirmOrAssociationOfPersonsOrLimitedLiabilityPartnerships>
+<in-capmkt:EffectOfExchangeRateChangesOnCashAndCashEquivalents contextRef="FourD" decimals="-5" unitRef="INR">3847400000</in-capmkt:EffectOfExchangeRateChangesOnCashAndCashEquivalents>
+<in-capmkt:WhetherResultsAreAuditedOrUnauditedForImpactOfAuditQualification contextRef="OneD">Unaudited</in-capmkt:WhetherResultsAreAuditedOrUnauditedForImpactOfAuditQualification>
+<in-capmkt:DeclarationPursuantToClauseDOfSubRegulation3OfRegulation33OfSEBILODRRegulation2015 contextRef="OneD">true</in-capmkt:DeclarationPursuantToClauseDOfSubRegulation3OfRegulation33OfSEBILODRRegulation2015>
+</xbrli:xbrl>

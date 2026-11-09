@@ -1,0 +1,29 @@
+{
+  "created_by": "india-exit",
+  "symbol": "RELIANCE",
+  "exchange": "NSE",
+  "currency": "INR",
+  "tick": 0.1,
+  "side": "buy",
+  "product": "MIS",
+  "date": "2026-10-19",
+  "setup": "orb",
+  "entry": 1227.8,
+  "entry_time": "09:50",
+  "entry_bar": 6,
+  "interval": "5m",
+  "opening_range": {
+    "high": 1223.4,
+    "low": 1207.3,
+    "minutes": 15
+  },
+  "stop": 1215.3,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 1240.3,
+  "target_r": 1.0,
+  "target_label": "1R (one times the risk)",
+  "risk_per_share": 12.5,
+  "reward_risk": 1.0,
+  "flat_by": "15:10"
+}

@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {"id": "pre-open", "type": "pre_open"},
+    {"id": "opening-bell", "type": "opening_bell"},
+    {"id": "reliance-plan-stop", "symbol": "RELIANCE", "exchange": "NSE", "type": "stop", "price": 1215.3, "note": "plan stop: opening-range midpoint", "date": "2026-10-19"},
+    {"id": "reliance-plan-target", "symbol": "RELIANCE", "exchange": "NSE", "type": "target", "price": 1240.3, "note": "plan target: 1R (one times the risk)", "date": "2026-10-19"},
+    {"id": "reliance-flat-by", "symbol": "RELIANCE", "exchange": "NSE", "type": "time", "at": "15:10", "label": "flat by", "close": "15:15", "square_off": "15:12", "date": "2026-10-19"},
+    {"id": "reliance-mis-squareoff", "type": "time", "at": "15:09", "label": "MIS auto square-off at 15:12", "mis": true, "close": "15:15", "square_off": "15:12", "symbol": "RELIANCE", "exchange": "NSE"},
+    {"id": "reliance-move-3", "symbol": "RELIANCE", "exchange": "NSE", "type": "pct_move", "pct": 3},
+    {"id": "rpower-circuit", "symbol": "RPOWER", "exchange": "NSE", "type": "circuit", "within": 1}
+  ]
+}

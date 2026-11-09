@@ -1,0 +1,21 @@
+{
+  "name": "india-day-trader-skill",
+  "description": "11 Claude skills for day trading Indian stocks on NSE and BSE: scan thousands of charts, track corporate announcements, time every entry and exit, and replay every outcome before you risk a rupee.",
+  "version": "1.0.0",
+  "author": {
+    "name": "india-day-trader-skill contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "day-trading",
+    "nse",
+    "bse",
+    "indian-stock-market",
+    "zerodha",
+    "opening-range-breakout",
+    "paper-trading"
+  ],
+  "skills": "./"
+}

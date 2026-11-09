@@ -1,0 +1,48 @@
+{
+ "data": [
+  {
+   "BD_DT_DATE": "22-OCT-2026",
+   "BD_DT_ORDER": "2026-10-21T18:30:00.000Z",
+   "BD_SYMBOL": "RAVITA",
+   "BD_SCRIP_NAME": "Ravita Engineering Ser L",
+   "BD_CLIENT_NAME": "BHAVNA HITESH PATEL",
+   "BD_BUY_SELL": "BUY",
+   "BD_QTY_TRD": 469200,
+   "BD_TP_WATP": 112,
+   "BD_REMARKS": "-"
+  },
+  {
+   "BD_DT_DATE": "22-OCT-2026",
+   "BD_DT_ORDER": "2026-10-21T18:30:00.000Z",
+   "BD_SYMBOL": "RAVITA",
+   "BD_SCRIP_NAME": "Ravita Engineering Ser L",
+   "BD_CLIENT_NAME": "FINAVENUE GROWTH FUND",
+   "BD_BUY_SELL": "BUY",
+   "BD_QTY_TRD": 366000,
+   "BD_TP_WATP": 112.58,
+   "BD_REMARKS": "-"
+  },
+  {
+   "BD_DT_DATE": "22-OCT-2026",
+   "BD_DT_ORDER": "2026-10-21T18:30:00.000Z",
+   "BD_SYMBOL": "RAVITA",
+   "BD_SCRIP_NAME": "Ravita Engineering Ser L",
+   "BD_CLIENT_NAME": "YASH HITESH PATEL",
+   "BD_BUY_SELL": "BUY",
+   "BD_QTY_TRD": 529200,
+   "BD_TP_WATP": 112,
+   "BD_REMARKS": "-"
+  },
+  {
+   "BD_DT_DATE": "22-OCT-2026",
+   "BD_DT_ORDER": "2026-10-21T18:30:00.000Z",
+   "BD_SYMBOL": "RAVITA",
+   "BD_SCRIP_NAME": "Ravita Engineering Ser L",
+   "BD_CLIENT_NAME": "YASHVI HITESH PATEL",
+   "BD_BUY_SELL": "BUY",
+   "BD_QTY_TRD": 718800,
+   "BD_TP_WATP": 111.96,
+   "BD_REMARKS": "-"
+  }
+ ]
+}

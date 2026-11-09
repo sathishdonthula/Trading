@@ -1,0 +1,71 @@
+{
+  "created_by": "india-budget",
+  "created_at": "2026-10-19T04:20:00Z",
+  "status": "proposed",
+  "paper": true,
+  "broker": "zerodha",
+  "currency": "INR",
+  "note": "Proposals only. Nothing is placed until india-risk passes each order and you say yes to it in the chat.",
+  "source": "trader-in/plan.json (RELIANCE orb 2026-10-19)",
+  "orders": [
+    {
+      "variety": "regular",
+      "exchange": "NSE",
+      "tradingsymbol": "RELIANCE",
+      "transaction_type": "BUY",
+      "quantity": 30,
+      "product": "MIS",
+      "order_type": "MARKET",
+      "validity": "DAY",
+      "tag": "indiabudget",
+      "exit_plan": {
+        "kind": "sl-m+limit",
+        "when": "after the entry fills (MIS): place both; when one fills, cancel the other at once",
+        "stop_leg": {
+          "variety": "regular",
+          "exchange": "NSE",
+          "tradingsymbol": "RELIANCE",
+          "transaction_type": "SELL",
+          "quantity": 30,
+          "product": "MIS",
+          "validity": "DAY",
+          "tag": "indiabudget",
+          "order_type": "SL-M",
+          "trigger_price": 1215.3
+        },
+        "target_leg": {
+          "variety": "regular",
+          "exchange": "NSE",
+          "tradingsymbol": "RELIANCE",
+          "transaction_type": "SELL",
+          "quantity": 30,
+          "product": "MIS",
+          "validity": "DAY",
+          "tag": "indiabudget",
+          "order_type": "LIMIT",
+          "price": 1240.3
+        }
+      },
+      "why": "opening-range breakout on RELIANCE: 30 shares, bound by your position cap (30 x 12.50 + ₹38.82 charges = ₹413.82 at the stop)",
+      "plan": {
+        "symbol": "RELIANCE",
+        "exchange": "NSE",
+        "currency": "INR",
+        "tick": 0.1,
+        "entry": 1227.8,
+        "stop": 1215.3,
+        "target": 1240.3,
+        "risk_per_share": 12.5,
+        "charges": 38.82,
+        "max_loss": 413.82,
+        "setup": "orb",
+        "date": "2026-10-19",
+        "entry_time": "09:50",
+        "flat_by": "15:10",
+        "cas": null,
+        "square_off": "15:12",
+        "session_close": "15:15"
+      }
+    }
+  ]
+}
